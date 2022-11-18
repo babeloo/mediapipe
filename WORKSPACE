@@ -422,10 +422,9 @@ maven_install(
         "org.hamcrest:hamcrest-library:1.3",
     ],
     repositories = [
-        "https://maven.google.com",
-        "https://dl.google.com/dl/android/maven2",
-        "https://repo1.maven.org/maven2",
-        "https://jcenter.bintray.com",
+        "https://maven.aliyun.com/repository/google",
+        "https://maven.aliyun.com/repository/central",
+        "https://maven.aliyun.com/repository/public",
     ],
     fetch_sources = True,
     version_conflict_policy = "pinned",
