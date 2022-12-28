@@ -14,9 +14,5 @@
  * limitations under the License.
  */
 
-import {EmbedderOptions} from '../../../../tasks/web/core/embedder_options';
-import {VisionTaskOptions} from '../../../../tasks/web/vision/core/vision_task_options';
-
-/** Options for configuring a MediaPipe Image Embedder task. */
-export declare interface ImageEmbedderOptions extends EmbedderOptions,
-                                                      VisionTaskOptions {}
+export * from '../../../tasks/web/text/text_classifier/text_classifier';
+export * from '../../../tasks/web/text/text_embedder/text_embedder';
